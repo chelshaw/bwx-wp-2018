@@ -9,18 +9,12 @@ get_header(); ?>
 	<section id="primary" class="site-content">
 		<div id="content" role="main">
 			<header class="product-archive-header">
-			  <h1 class="bwx-title"><span>List of Featured Products</span></h1>
+			  <h1 class="bwx-title"><span><?= single_cat_title(); ?> Products</span></h1>
 			  <p><strong>
-			    *These are featured items only. Please contact us to inquire about other items we may have or manufacture.
+					<?= category_description() ?>
 			  <br />
 			    <!-- **Stock quantities are approximate, but not guaranteed. -->
 			  </strong></p>
-			  <?php
-					// TODO: Impliment this later, when tags are established
-			    // if(get_the_tag_list()) {
-			        // echo get_the_tag_list('<div class="tag-list"><span class="bwx-button">','</span><span class="bwx-button">','</span></div>');
-			    // }
-			  ?>
 			</header>
 
   		<?php if ( have_posts() ) : ?>
