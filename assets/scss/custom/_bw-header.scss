@@ -1,0 +1,21 @@
+.site-header{
+  background-color:white;
+  border-top:33px solid $primary-color;
+}
+.company-info{
+  padding-top:1.5em;
+  padding-bottom:1.5em;
+}
+.top-bar, .top-bar ul {
+  background-color: $black;
+  text-transform:uppercase;
+}
+.top-bar .menu a:not(.button) {
+  color:$medium-gray;
+}
+.top-bar ul.desktop-menu a:hover:not(.button) {
+  background-color: black;
+}
+.top-bar .menu li.current-menu-item a:not(.button) {
+  color:$white;
+}

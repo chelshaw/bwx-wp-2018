@@ -1,0 +1,21 @@
+.slider-wrapper{
+  border-bottom:3px solid $medium-gray;
+  height:200px;
+  overflow:hidden;
+}
+.slide-outer{
+  display:block;
+  width:20%;
+  float:left;
+}
+.slide-front, .slide-back{
+  position:relative;
+  height:200px;
+  display:block;
+  transition: all .2s ease-in-out;
+  background-color:white;
+}
+.slide-outer:hover .slide-front,
+.slide-outer:hover .slide-back{
+  transform:translate(0,-200px);
+}
