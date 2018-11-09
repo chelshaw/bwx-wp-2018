@@ -4,7 +4,7 @@ add_action( 'wp_enqueue_scripts', 'bwx_theme_enqueue_styles' );
 function bwx_theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.3.1/css/all.css' );
+    wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.5.0/css/all.css' );
     wp_enqueue_style( 'tabs-style', get_stylesheet_directory_uri() . '/assets/css/tab-styling.css' );
 }
 
