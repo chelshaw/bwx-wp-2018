@@ -548,6 +548,11 @@ h6.bwx-title span {
   padding: 0 0 20px 20px;
 }
 
+a.privacy-policy-link, a.privacy-policy-link:hover {
+  color: #1b4164;
+  text-decoration: none;
+}
+
 a.inherit {
   color: inherit;
   text-decoration: inherit;
