@@ -91,15 +91,24 @@ body .page {
   background-color: black;
 }
 
+.main-navigation li > ul > li > a {
+  color: #9f9f9f;
+  background-color: #241f1f;
+}
+
+.main-navigation li > ul > li > a:hover,
+.main-navigation li > ul > li > a:focus,
+.main-navigation li > ul > li > a:active,
 .main-navigation li > ul > li.current-menu-item > a {
-  background-color: #1b4164;
+  color: #fff;
+  background-color: #000;
 }
 
 @media screen and (max-width: 800px) {
   nav.main-navigation {
+    color: #9f9f9f;
     background-color: #241f1f;
     font-size: 16px;
-    /* padding: 10px; */
   }
   .menu-toggle,
   .menu-toggle:hover,
