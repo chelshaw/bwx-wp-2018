@@ -548,6 +548,28 @@ h6.bwx-title span {
   padding: 0 0 20px 20px;
 }
 
+.news-archive {
+  margin-bottom: 50px;
+}
+
+table.news-archive__table {
+  width: 100%;
+}
+
+table.news-archive__table td {
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1.1em;
+}
+
+table.news-archive__table td.headline {
+  color: #1b4164;
+  font-weight: 600;
+}
+
 a.privacy-policy-link, a.privacy-policy-link:hover {
   color: #1b4164;
   text-decoration: none;

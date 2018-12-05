@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Archive of Products
+ * The template for displaying category archive
  *
  */
 
