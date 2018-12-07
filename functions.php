@@ -8,6 +8,19 @@ function bwx_theme_enqueue_styles() {
     wp_enqueue_style( 'tabs-style', get_stylesheet_directory_uri() . '/assets/css/tab-styling.css' );
 }
 
+add_action('wp_head', 'wpb_add_googleanalytics');
+function wpb_add_googleanalytics() { ?>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86179415-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-86179415-1');
+  </script>
+<?php }
+
 require_once( 'library/require-plugins.php' );
 require_once( 'library/front-page-slider.php' );
 require_once( 'library/register-product.php' );
